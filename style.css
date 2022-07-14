@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -14,6 +15,11 @@ section {
     display: flex;
 }
 
+#top-banner {
+    background-image: url(photo/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .half-width {
     width: 50%;
     padding-top: 100px;
@@ -21,18 +27,47 @@ section {
     padding-right: 95px;
 }
 
-.half-width img {
-    width: 80%;
+#pera {
+    font-size: 16px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.half-width-img {
+    width: 50%;
     padding-top: 100px;
-    padding-left: 100px;
-    margin-right: 100px;
+    padding-left: 50px;
+    margin-right: 50px;
 
 }
 
-.link-button {
+.half-width-2 {
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 95px;
+    margin-top: 200px;
+}
+
+.half-width-img-2 {
+    width: 50%;
+    padding-left: 100px;
+    margin-right: 50px;
+}
+
+.link-button-1 {
     text-decoration: none;
-    background-image: linear-gradient(rgb(243, 140, 140), rgb(255, 188, 62));
-    padding: 10px 40px;
+    background-image: linear-gradient(rgb(0, 217, 255), rgb(0, 140, 255));
+    padding: 10px 30px;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.link-button-2 {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(204, 0, 255), rgb(89, 0, 255));
+    padding: 10px 30px;
     color: aliceblue;
     font-weight: 700;
     border-radius: 8px;
